@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Tabs</title>
+</head>
+<body>
+    <div class="container d-flex align-items-center">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <ul class="tabbar m-0">
+                        <li class="active" data-id="html">html</li>
+                        <li data-id="css">css</li>
+                        <li data-id="javascript">javascript</li>
+                        <li data-id="angular">angular</li>
+                    </ul>
+                    <div class="tabpanel active card" id="html">
+                        <div class="card-body">
+                            <strong>HTML,</strong> or HyperText Markup Language, is the standard language for creating web pages and web applications. It uses tags to structure and format content, such as text, images, and links. HTML documents consist of a head section for metadata and a body section for visible content. HTML5, the latest version, introduced new elements for multimedia and improved accessibility. Web browsers interpret HTML code to render web pages for users to view and interact with online content.<br>
+                                HTML, or Hypertext Markup Language, is a markup language for the web that defines the structure of web pages. It is one of the most basic building blocks of every website, so it's crucial to learn if you want to have a career in web development.<br>
+                                The html element is the root element of an HTML page
+                            The head element contains meta information about the HTML page
+                            The title element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+                            The body element defines the document's body, and is a container for all the visible contents, such asheadings, paragraphs, images, hyperlinks, tables, lists, etc.
+                            The h1 element defines a large heading
+                            The p element defines a paragraph
+                        </div>
+                    </div>
+                    <div class="tabpanel card" id="css">
+                        <div class="card-body">
+                            <strong>CSS,</strong> or Cascading Style Sheets, is a web technology used to control the presentation and layout of HTML elements. It allows designers and developers to define the visual styling, such as colors, fonts, spacing, and positioning, for web pages. CSS separates content from design, making it easier to maintain and update websites. It can be applied inline, in the HTML document's head, or in external stylesheets. Cascading in CSS refers to the order of rules that can be inherited or overridden, providing flexibility in design control.
+                        </div>
+                    </div>
+                    <div class="tabpanel card" id="javascript">
+                        <div class="card-body">
+                            <strong>JavaScript</strong> is a versatile and widely used programming language for web development. It enables interactive and dynamic behavior in web pages, enhancing user experience. JavaScript can manipulate the DOM (Document Object Model), handle events, and communicate with servers via AJAX. It's supported by all major web browsers and can be used both on the client side and server side (Node.js). JavaScript is an essential tool for building modern web applications, from simple interactivity to complex, feature-rich sites.
+                        </div>
+                    </div>
+                    <div class="tabpanel card" id="angular">
+                        <div class="card-body">
+                            <strong>Angular</strong> is a popular open-source framework for web development, created and maintained by Google. It's used for building dynamic, single-page web applications with features like two-way data binding, dependency injection, and component-based architecture. Angular offers robust tools for routing, form handling, and interacting with backend services, making it suitable for large and complex projects. It follows the MVC (Model-View-Controller) architectural pattern and offers a well-structured development workflow. Developers use TypeScript to build Angular applications, which enforces strong typing and improves code quality.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

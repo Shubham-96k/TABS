@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(45deg, #000, #fff, #ff0000);
+}
+
+.container{
+    height: 100vh;
+}
+.card{
+    height: 300px;
+}
+
+.tabbar{
+    list-style: none;
+    background-color: black;
+    color: aqua;
+    display: flex;
+    padding: 0px;
+}
+.tabbar li{
+    width: 25%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+
+.tabbar li:hover,
+.tabbar li:active,
+.tabbar li:focus{
+    background-color: aqua;
+    color: #000;
+}
+.tabbar li.active{
+    background-color: aqua;
+    color: #000;
+    transform: scale(.90,.90);
+}
+
+
+.tabpanel{
+    display: none;
+}
+.tabpanel.active{
+    display: block;
+}
